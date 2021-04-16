@@ -59,6 +59,7 @@ img {
 .flex {
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 
@@ -70,3 +71,12 @@ img {
     background: #8a1528
     
 }
+
+footer > div {
+display: block;
+margin-top: 5px;
+background: #8a1528;
+padding: 5px;
+}
+
+
