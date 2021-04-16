@@ -23,6 +23,8 @@ h1, p {
  text-align: center;
  margin-top: 40px;
  color: white;
+ padding: 10px;
+ margin: 10px;
 }
 
 img {
@@ -44,8 +46,8 @@ img {
 .menu li {
   margin-left: 20px;
   background: #8a1528;
-  padding: 12px;
-  border-radius: 50px;
+  padding: 10px;
+  
 }
 
 .menu li a {
@@ -56,10 +58,15 @@ img {
 
 .flex {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 
 }
 
 .flex > div {
     flex: 1 1 200px;
+}
+
+#buttontag, #buttontag2, #buttontag1 {
+    background: #8a1528
+    
 }
